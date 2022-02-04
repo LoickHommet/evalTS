@@ -45,7 +45,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
     const input = document.querySelector("input[type='text']");
     
    
-    const liste = todosUser.filter(todos => todos.name.toLowerCase().includes(input.value.toLowerCase() ));
+   // const liste = todosUser.filter(todos => todos.name.toLowerCase().includes(input.value.toLowerCase() ));
 
-    render(liste)
+    //render(liste)
 });
